@@ -1,0 +1,7 @@
+apt update&&apt upgrade -y
+termux-setup-storage
+pkg install php git -y
+cd AIOChk
+php aio.php
+chmod +x pasterm.php
+php pasterm.php
